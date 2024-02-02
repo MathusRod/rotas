@@ -1,0 +1,12 @@
+.alunosLista{
+  display: flex;
+  flex-direction: column;
+  gap: .875rem;
+  a{
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.9rem;
+    background-color: rgba(202, 53, 53, 0.63);
+  }
+}

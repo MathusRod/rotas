@@ -1,0 +1,14 @@
+
+.aula-51{
+  display: flex;
+  gap: 4rem;
+  background: #e25959;
+  margin: 0rem;
+  padding: 1.5rem;
+  list-style: none;
+  cursor: pointer;
+}
+.active{
+  background: rgba(255, 0, 212, 0.521);
+  transform: scale(2);
+}
