@@ -1,10 +1,12 @@
-<ul class="aula-51">
-  <li routerLinkActive="active"><a routerLink="/login">Login</a></li>
-  <li routerLinkActive="active"><a routerLink="/cursos" [queryParams]="{pagina:1}">Cursos</a></li>
-  <!-- <li routerLinkActive="active"><a [routerLink]="['curso', idCurso.value]">Cursos com ID</a></li> -->
-  <li routerLinkActive="active"><a routerLink="/alunos">Alunos</a></li>
-  <li><a routerLink="">LOGO :D</a></li>
-</ul>
+<nav *ngIf="mostrarMenu">
+  <ul class="aula-51">
+    <li routerLinkActive="active"><a routerLink="/login">Login</a></li>
+    <li routerLinkActive="active"><a routerLink="/cursos" [queryParams]="{pagina:1}">Cursos</a></li>
+    <!-- <li routerLinkActive="active"><a [routerLink]="['curso', idCurso.value]">Cursos com ID</a></li> -->
+    <li routerLinkActive="active"><a routerLink="/alunos">Alunos</a></li>
+    <li><a routerLink="">LOGO :D</a></li>
+  </ul>
+</nav>
 <br>
 <!-- <div>
   <p>Entre com o id do curso</p>

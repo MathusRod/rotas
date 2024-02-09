@@ -9,8 +9,10 @@ export class CursoService {
     return [
       { id: 1, nome: 'Angular 2' },
       { id: 2, nome: 'Java' },
-      { id: 3, nome: 'Java' },
-      { id: 4, nome: 'Java' },
+      { id: 3, nome: 'Python' },
+      { id: 4, nome: 'C' },
+      { id: 5, nome: 'JavaScript' },
+      { id: 6, nome: 'C#' },
 
     ];
   }
